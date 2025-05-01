@@ -1,3 +1,3 @@
-require("lguindani.core")
-require("lguindani.lazy")
+require("dmiserez.core")
+require("dmiserez.lazy")
 
