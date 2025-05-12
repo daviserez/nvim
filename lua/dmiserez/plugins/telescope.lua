@@ -1,3 +1,5 @@
+vim.keymap.set("n", "<leader>fo", require('telescope.builtin').lsp_workspace_symbols, { desc = "Find symbols" })
+
 return {
   "nvim-telescope/telescope.nvim",
   branch = "0.1.x",
