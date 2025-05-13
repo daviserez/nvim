@@ -1,5 +1,3 @@
-vim.keymap.set("n", "<leader>fo", require('telescope.builtin').lsp_workspace_symbols, { desc = "Find symbols" })
-
 return {
   "nvim-telescope/telescope.nvim",
   branch = "0.1.x",
@@ -64,5 +62,6 @@ return {
     keymap.set("n", "<leader>fr", "<cmd>Telescope oldfiles<cr>", { desc = "Find recent files" })
     keymap.set("n", "<leader>fs", "<cmd>Telescope live_grep<cr>", { desc = "Find string" })
     keymap.set("n", "<leader>fc", "<cmd>Telescope grep_string<cr>", { desc = "Find string under cursor" })
+    keymap.set("n", "<leader>fo", "<cmd>Telescope lsp_workspace_symbols<cr>", { desc = "Find symbols" })
   end,
 }
