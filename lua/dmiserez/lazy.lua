@@ -31,4 +31,3 @@ require("lazy").setup({ { import = "dmiserez.plugins" }, { import = "dmiserez.pl
     notify = false,
   },
 })
-
